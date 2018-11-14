@@ -25,7 +25,6 @@ var b = 2;
 var sum = a + b;
 var tomb = [1,2,3];
 ```
-++++++++++++++++++++++
 
 ## Operátorok
 ### Aritmetikai operátorok
@@ -120,9 +119,9 @@ Webfejelsztés során a kódjaink nagyrésze valamilyen esemény hatására futn
   <button value="Kattints rám!" onClick="alert('Hello!')">
 ```
 A fenti kódrészlet a gomb click eseményére egy felugró ablakot jelenít meg. A click eseményen kívűl rengteg esemény létezik, amiket használhatunk.
-|                  |                                                  |
-| ---------------- | ------------------------------------------------ |
+
 | **Esemény neve** | **Az esemény mikor következik be**               |
+| ---------------- | ------------------------------------------------ |
 | onAbort          | A felhasználó megszakítja a kép betöltését       |
 | onBlur           | Az egérrel az aktuális mezon kívülre kattint     |
 | onChange         | Megváltoztatunk egy űrlapbeli értéket            |
