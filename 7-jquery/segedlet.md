@@ -36,6 +36,12 @@
   	...
   });
   ```
+  - Ha te helyezted el a DOM-ban akkor csak a document-en meghívva működik az esemény hívás.
+  ```javascript
+  $(document).on('click', '.button', function() {
+    console.log('CLICK');
+  });
+  ```
 
 - `$(this)` mindig a fogadó elemre mutat
 
