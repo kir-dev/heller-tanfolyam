@@ -65,7 +65,7 @@ Válasz
 
 ## Bejegyzés szerkesztése
 
-`POST /articles/{id}`
+`PUT /articles/{id}`
 
 Kérés
 ```json
